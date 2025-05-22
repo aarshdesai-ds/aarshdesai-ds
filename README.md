@@ -24,7 +24,7 @@ I'm passionate about solving real-world problems with data. My experience spans 
 | [Life Expectancy Forecast](https://github.com/aarshdesai-ds/life-expectancy-forecast) | Regression model using health and socioeconomic indicators to estimate U.S. life expectancy. | Python |
 | [Diamond Price Predictor](https://github.com/aarshdesai-ds/diamond-pricing) | Linear regression model to forecast diamond prices based on carat, clarity, etc. | Python |
 | [Census Income Classification](https://github.com/aarshdesai-ds/census-income-classification) | Logistic regression model to classify income levels using U.S. Census data. | Python |
-| [Bike Share Analysis](https://github.com/aarshdesai-ds/bike-usage-analysis) | Excel-based analysis of 1M+ rides to uncover customer behavior trends. | Excel |
+| [Bike Share Analysis](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) | Excel-based analysis of 1M+ rides to uncover customer behavior trends. | Excel |
 
 ---
 
