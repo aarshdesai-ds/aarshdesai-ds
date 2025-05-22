@@ -21,8 +21,6 @@ I'm passionate about solving real-world problems with data. My experience spans 
 | Project | Description | Tech |
 |--------|-------------|------|
 | [Diabetes Risk Prediction](https://github.com/aarshdesai-ds/diabetes-prediction) | Built a decision tree model using NIDDK data. Deployed via Streamlit for real-time predictions. | Python, scikit-learn, Streamlit |
-| [Life Expectancy Forecast](https://github.com/aarshdesai-ds/life-expectancy-forecast) | Regression model using health and socioeconomic indicators to estimate U.S. life expectancy. | Python |
-| [Diamond Price Predictor](https://github.com/aarshdesai-ds/diamond-pricing) | Linear regression model to forecast diamond prices based on carat, clarity, etc. | Python |
 | [Census Income Classification](https://github.com/aarshdesai-ds/census-income-logistic-regression) | Logistic regression model to classify income levels using U.S. Census data. | Python |
 | [Bike Share Analysis](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) | Excel-based analysis of 1M+ rides to uncover customer behavior trends. | Excel |
 
