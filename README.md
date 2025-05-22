@@ -40,6 +40,5 @@ I'm passionate about solving real-world problems with data. My experience spans 
 - ✉️ aarshdesai004@gmail.com
 - 🧑‍💻 [GitHub](https://github.com/aarshdesai-ds)
 
----
 
-📌 *Currently seeking Fall 2024 internships in data science, analytics, and ML engineering.*
+
