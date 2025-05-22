@@ -29,8 +29,8 @@ I'm passionate about solving real-world problems with data. My experience spans 
 ---
 
 ## 🎖 Certifications
-- Google Data Analytics Certificate (July 2024)
-- Google Advanced Data Analytics (Aug 2024)
+- Google Data Analytics Professional Certificate (July 2024)
+- Google Advanced Data Analytics Professional Certificate (Aug 2024)
 - SQL for Data Science – UC Davis (Oct 2024)
 
 ---
