@@ -1,16 +1,45 @@
-## Hi there 👋
+# 👋 Hi, I'm Aarsh Desai
 
-<!--
-**aarshdesai-ds/aarshdesai-ds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Data Science undergrad at Purdue University | Minor in Economics  
+📍 West Lafayette, IN | 💻 Python • SQL • Tableau • ML  
 
-Here are some ideas to get you started:
+I'm passionate about solving real-world problems with data. My experience spans healthcare analytics, business intelligence, and predictive modeling — all backed by strong technical and communication skills.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🔧 Skills & Tools
+**Languages**: Python, SQL, R, Java  
+**Data Science**: Scikit-learn, EDA, Feature Engineering, Statistical Modeling  
+**Databases**: MySQL, Relational Databases  
+**Visualization**: Tableau, Excel, Google Sheets  
+**Tools**: Jupyter, Git, Streamlit
+
+---
+
+## 📁 Highlight Projects
+
+| Project | Description | Tech |
+|--------|-------------|------|
+| [Diabetes Risk Prediction](https://github.com/aarshdesai-ds/diabetes-prediction) | Built a decision tree model using NIDDK data. Deployed via Streamlit for real-time predictions. | Python, scikit-learn, Streamlit |
+| [Life Expectancy Forecast](https://github.com/aarshdesai-ds/life-expectancy-forecast) | Regression model using health and socioeconomic indicators to estimate U.S. life expectancy. | Python |
+| [Diamond Price Predictor](https://github.com/aarshdesai-ds/diamond-pricing) | Linear regression model to forecast diamond prices based on carat, clarity, etc. | Python |
+| [Census Income Classification](https://github.com/aarshdesai-ds/census-income-classification) | Logistic regression model to classify income levels using U.S. Census data. | Python |
+| [Bike Share Analysis](https://github.com/aarshdesai-ds/bike-usage-analysis) | Excel-based analysis of 1M+ rides to uncover customer behavior trends. | Excel |
+
+---
+
+## 🎖 Certifications
+- Google Data Analytics Certificate (July 2024)
+- Google Advanced Data Analytics (Aug 2024)
+- SQL for Data Science – UC Davis (Oct 2024)
+
+---
+
+## 📫 Let’s Connect
+- 🌐 [LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/)
+- ✉️ aarshdesai004@gmail.com
+- 🧑‍💻 [GitHub](https://github.com/aarshdesai-ds)
+
+---
+
+📌 *Currently seeking Fall 2024 internships in data science, analytics, and ML engineering.*
