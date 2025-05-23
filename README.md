@@ -20,6 +20,7 @@ I'm passionate about solving real-world problems with data. My experience spans 
 
 | Project | Description | Tech |
 |--------|-------------|------|
+| [Customer Churn Prediction](https://github.com/aarshdesai-ds/churn-prediction) | Built a churn prediction model using Random Forest and SMOTE. Deployed an interactive Streamlit app for real-time churn risk analysis using telecom customer data. | Python, scikit-learn, Streamlit |
 | [Favorita Sales Forecasting](https://github.com/aarshdesai-ds/favorita-sales-forecasting) | Forecasted product family sales using Random Forest and SARIMAX on Ecuadorian grocery data. Compared models and engineered features across holidays, oil prices, and transactions. | Python, scikit-learn, statsmodels |
 | [Diabetes Risk Prediction](https://github.com/aarshdesai-ds/diabetes-prediction) | Built a decision tree model using NIDDK data. Deployed via Streamlit for real-time predictions. | Python, scikit-learn, Streamlit |
 | [Census Income Classification](https://github.com/aarshdesai-ds/census-income-logistic-regression) | Logistic regression model to classify income levels using U.S. Census data. | Python |
