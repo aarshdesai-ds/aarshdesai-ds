@@ -9,10 +9,21 @@ I'm passionate about solving real-world problems with data. My experience spans 
 
 ## 🔧 Skills & Tools
 **Languages**: Python, SQL, R, Java  
-**Data Science**: Scikit-learn, EDA, Feature Engineering, Statistical Modeling  
-**Databases**: MySQL, Relational Databases  
-**Visualization**: Tableau, Excel, Google Sheets  
-**Tools**: Jupyter, Git, Streamlit
+
+**Data Science & Machine Learning**:  
+Scikit-learn, XGBoost, Random Forest, SVM, KNN, Logistic Regression, Decision Trees, SARIMAX, SMOTE, PCA, K-Means, Recursive Feature Elimination (RFE), Model Evaluation (ROC-AUC, F1-score, RMSE, R²), Statistical Modeling, Classification, Regression, Time Series Forecasting  
+
+**Data Analysis & Engineering**:  
+Exploratory Data Analysis (EDA), Feature Engineering, Data Cleaning, Label Encoding, Dimensionality Reduction, Multicollinearity Handling (VIF, Correlation Matrix), Missing Value Imputation, Data Integration, Business Insight Extraction  
+
+**Databases**:  
+MySQL, Relational Databases, Complex Joins, Data Extraction & Transformation (ETL), Merging Multi-source Datasets  
+
+**Visualization**:  
+Tableau (KPI Dashboards, Regional Sales), Matplotlib, Seaborn, Plotly, Excel Dashboards, Google Sheets, Streamlit (Interactive Dashboards, Real-time Filtering)  
+
+**Tools & Platforms**:  
+Jupyter Notebook, Git, Streamlit, VS Code, Kaggle, GitHub, Streamlit Sharing (App Deployment)
 
 ---
 
