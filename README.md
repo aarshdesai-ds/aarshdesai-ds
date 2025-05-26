@@ -39,6 +39,7 @@ Jupyter Notebook, Git, Streamlit, VS Code, Kaggle, GitHub, Streamlit Sharing (Ap
 | [Diabetes Risk Prediction](https://github.com/aarshdesai-ds/diabetes-prediction) | Built a decision tree model using NIDDK data. Deployed via Streamlit for real-time predictions. | Python, scikit-learn, Streamlit |
 | [Census Income Classification](https://github.com/aarshdesai-ds/census-income-logistic-regression) | Logistic regression model to classify income levels using U.S. Census data. | Python |
 | [Bike Share Analysis](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) | Excel-based analysis of 1M+ rides to uncover customer behavior trends. | Excel |
+| [Video Game Sales Analysis](https://github.com/aarshdesai-ds/games-sales-analysis) | Analyzed global video game sales across platforms and genres to uncover market trends and performance drivers. Created interactive Tableau dashboards and performed in-depth EDA. | Tableau, Python, EDA |
 
 ---
 
