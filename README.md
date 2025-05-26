@@ -31,6 +31,7 @@ Jupyter Notebook, Git, Streamlit, VS Code, Kaggle, GitHub, Streamlit Sharing (Ap
 
 | Project | Description | Tech |
 |--------|-------------|------|
+| [Aadhaar Scheme Impact Analysis](https://github.com/aarshdesai-ds/aadhaar-eda-project) | In-depth EDA of Aadhaar survey data to examine accessibility, enrollment gaps, and public sentiment across demographics. Evaluated impact on school admissions, SIM cards, and government schemes. Includes policy recommendations and equity insights. | Python, Pandas, Seaborn, Matplotlib |
 | [Diamond Price Prediction](https://github.com/aarshdesai-ds/diamond-price-prediction) | Built a multiple linear regression model to predict diamond prices using EDA, encoding, and multicollinearity analysis (VIF). Interpreted residuals and ensured model stability. | Python, scikit-learn, statsmodels |
 | [Loan Default Risk Dashboard](https://github.com/aarshdesai-ds/loan-risk-dashboard) | Streamlit dashboard with 25+ EDA plots exploring demographic and financial influences on loan defaults. | Python, Streamlit, Seaborn |
 | [Customer Churn Prediction](https://github.com/aarshdesai-ds/churn-prediction) | Built a churn prediction model using Random Forest and SMOTE. Deployed an interactive Streamlit app for real-time churn risk analysis using telecom customer data. | Python, scikit-learn, Streamlit |
@@ -40,6 +41,7 @@ Jupyter Notebook, Git, Streamlit, VS Code, Kaggle, GitHub, Streamlit Sharing (Ap
 | [Census Income Classification](https://github.com/aarshdesai-ds/census-income-logistic-regression) | Logistic regression model to classify income levels using U.S. Census data. | Python |
 | [Bike Share Analysis](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) | Excel-based analysis of 1M+ rides to uncover customer behavior trends. | Excel |
 | [Video Game Sales Analysis](https://github.com/aarshdesai-ds/games-sales-analysis) | Extensive EDA and statistical testing on 16.5K+ global video game records to uncover trends in platform dominance, genre profitability, and ESRB ratings. Includes Pearson correlation, t-tests, ANOVA, and Chi-Square. Rich insights via visualizations. | Python, Pandas, Seaborn, Matplotlib, SciPy |
+
 
 ---
 
