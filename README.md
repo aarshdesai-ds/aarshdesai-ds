@@ -53,58 +53,6 @@ Graduated: May 2026
 
 ---
 
-## Professional Experience
-
-### Undergraduate Teaching Assistant
-
-Purdue University  
-August 2025 - December 2025
-
-- Assisted with CS 19300, a course focused on foundational computing tools for first-year students.
-- Guided 50+ students through Linux, Git, VS Code, shell scripting, and programming workflow fundamentals.
-- Held weekly office hours and provided one-on-one support for labs, projects, debugging, and course concepts.
-- Helped students build confidence with developer tools that are essential for technical coursework and real-world software collaboration.
-- Strengthened my own communication skills by explaining technical topics clearly to students with different levels of experience.
-
-### Data Analyst Intern
-
-Oeson Learning  
-May 2024 - August 2024
-
-- Engineered Python preprocessing scripts to clean, validate, and integrate multi-source sales data.
-- Improved data accuracy by 20% through stronger preprocessing, validation, and cleaning workflows.
-- Helped create scalable data pipelines that supported downstream analysis and machine learning model preparation.
-- Collaborated with engineering and sales teams to align analytical workflows with business goals.
-- Used SQL and business analytics methods to support interactive Tableau dashboards.
-- Contributed to dashboard workflows that accelerated decision-making by 15%.
-- Developed experience translating business questions into structured data requirements and analytical outputs.
-
-### Healthcare Analytics Intern
-
-Surgicare Hospital Services  
-May 2023 - August 2023
-
-- Analyzed 3,000+ orthopedic and gynecology patient records using Python and Excel.
-- Applied data modeling and exploratory analysis techniques to uncover admission trends.
-- Supported staffing and patient-flow decisions by identifying patterns in department-level demand.
-- Generated 10+ reports for a pharmaceutical partner.
-- Integrated diagnostic insights and machine learning results into reporting workflows.
-- Identified a 17% rise in gynecology prescriptions, supporting inventory forecasting and outreach strategy.
-- Built practical experience working with healthcare data, operational reporting, and stakeholder-facing analytics.
-
-### Student Supervisor
-
-Starbucks  
-April 2024 - May 2026
-
-- Supervised daily store operations, shift coordination, onboarding, training, and quality checks.
-- Used scheduling software, POS systems, inventory workflows, and KPI tracking to support store performance.
-- Trained new baristas on beverage preparation, safety protocols, operational standards, and customer service.
-- Resolved operational issues in real time while maintaining service quality and workflow consistency.
-- Developed leadership, communication, time management, and customer-facing problem-solving skills.
-- Gained hands-on experience balancing people, process, inventory, and service quality in a fast-paced environment.
-
----
 
 ## Technical Skills
 
