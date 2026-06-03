@@ -113,7 +113,6 @@ The projects below represent my public GitHub portfolio. They cover applied mach
 |---|---|---|---|
 | Aadhaar Impact Analysis | Public policy analytics, EDA | Survey analysis, demographic comparison, equity-focused insight generation | [Repository](https://github.com/aarshdesai-ds/aadhaar-eda-project) |
 | Favorita Store Sales Forecasting | Time series forecasting, retail analytics | Random Forest, SARIMAX, feature engineering, model comparison | [Repository](https://github.com/aarshdesai-ds/favorita-sales-forecasting) |
-| FIFA World Cup 2026 Predictor | Sports analytics, simulation | Elo ratings, rolling form, head-to-head features, multinomial logistic regression, Monte Carlo simulation | [Repository](https://github.com/aarshdesai-ds/world-cup-predictor) |
 | Telco Customer Churn Prediction | Customer analytics, ML deployment | Random Forest, SMOTE, classification metrics, Streamlit app | [Repository](https://github.com/aarshdesai-ds/churn-prediction) |
 | Diabetes Risk Prediction Web App | Healthcare analytics, ML app | Decision Tree, GridSearchCV, model comparison, Streamlit | [Repository](https://github.com/aarshdesai-ds/diabetes-prediction) |
 | Augmented Olivetti Face Recognition | Computer vision, classification | PCA, SVM, KNN, K-Means clustering | [Repository](https://github.com/aarshdesai-ds/olivetti-face-recognition) |
