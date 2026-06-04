@@ -1,4 +1,4 @@
-# Hi, I'm Aarsh Desai
+# About Me
 
 Recent Data Science graduate from Purdue University with a minor in Economics. I work at the intersection of data analytics, machine learning, business intelligence, statistical modeling, and data storytelling.
 
