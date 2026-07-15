@@ -1,8 +1,8 @@
 # About Me
 
-Recent Data Science graduate from Purdue University with a minor in Economics. I work at the intersection of data analytics, machine learning, business intelligence, statistical modeling, and data storytelling.
+Data Science graduate from Purdue University with a minor in Economics, focused on building practical machine learning and analytics systems that turn messy real-world data into reliable decisions.
 
-I enjoy turning messy, real-world datasets into clear insight, useful models, and decision-ready dashboards. My work spans healthcare analytics, business analytics, customer behavior, forecasting, sports analytics, public policy data, and machine learning applications. Across my projects, I focus on building complete analytical workflows: defining the business or research question, cleaning and validating data, engineering features, building models, evaluating results, and communicating the outcome in a way that technical and non-technical stakeholders can understand.
+My work spans applied machine learning, healthcare AI, analytics, forecasting, data engineering, and ML deployment. I like owning the full workflow: cleaning and validating data, engineering features, training and evaluating models, building dashboards or APIs, and explaining results clearly to technical and non-technical stakeholders.
 
 [LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/) | [GitHub](https://github.com/aarshdesai-ds) | [Email](mailto:aarshdesai004@gmail.com)
 
@@ -10,36 +10,22 @@ I enjoy turning messy, real-world datasets into clear insight, useful models, an
 
 ## Professional Snapshot
 
-- Recent Bachelor of Science graduate in Data Science from Purdue University, College of Science
-- Minor in Economics, with coursework and project work connecting data analysis to business, markets, public policy, and decision-making
-- Experienced with Python, SQL, R, Excel, Tableau, Power BI, Streamlit, scikit-learn, PyTorch, TensorFlow/Keras, statistical testing, and machine learning workflows
-- Built public projects across classification, regression, forecasting, clustering, time series modeling, ETL, interactive dashboards, exploratory data analysis, and deep learning for medical imaging and physiological signals
-- Built and evaluated deep learning models for healthcare, including a multi-label chest X-ray disease classifier (PyTorch, CNN, DenseNet-121 transfer learning) and an ECG-based structural heart disease detector (TensorFlow, ensembling, deployed as a FastAPI/Gradio service)
-- Former Data Analyst Intern at Oeson Learning, Healthcare Analytics Intern at Surgicare Hospital Services, Undergraduate Teaching Assistant at Purdue University, and Student Supervisor at Starbucks
-- Strong interest in business intelligence, predictive analytics, applied machine learning, healthcare analytics, customer analytics, sports analytics, and data-driven strategy
-
----
-
-## About Me
-
-I am a data scientist and analyst who likes working on problems where data has to be made usable before it can become valuable. Many of my projects begin with raw datasets that need cleaning, reshaping, validation, joining, encoding, or feature creation before any meaningful analysis can happen. I enjoy that part of the work because it forces a close understanding of the data and the problem behind it.
-
-My academic background in Data Science gave me a technical foundation in programming, databases, statistics, machine learning, data mining, algorithms, and software engineering. My Economics minor strengthened the way I think about incentives, markets, tradeoffs, and decision-making under uncertainty. Together, those areas shape how I approach analytics: I care about model performance, but I also care about whether the result is interpretable, useful, and connected to a real decision.
-
-Professionally, I have worked with sales data, healthcare records, operational reports, dashboards, and cross-functional workflows. In internships and academic projects, I have used Python, SQL, Excel, Tableau, and machine learning methods to uncover patterns, improve data quality, forecast outcomes, and communicate insights. I am especially interested in roles where I can combine analytical depth with practical business impact.
+- Purdue University B.S. Data Science graduate, with a minor in Economics
+- Focused on applied ML, healthcare AI, analytics, model evaluation, and deployment-ready data products
+- Built public projects across ECG deep learning, responsible clinical risk screening, computer vision, churn prediction, forecasting, ETL, dashboards, regression, statistical analysis, and sports/public-policy analytics
+- Built production-shaped ML projects with FastAPI, Docker, Streamlit, Gradio, GitHub Actions, CI/CD, model cards, calibration, and explainability
+- Internship experience across healthcare and education analytics, including 3,000+ patient records, 10+ recurring analytical reports, 50,000+ education records, Tableau dashboards, and Python data workflows
+- No U.S. work visa sponsorship required
 
 ---
 
 ## Current Focus Areas
 
-- Predictive modeling for customer behavior, risk, healthcare, sports, and operational decisions
-- Deep learning for medical imaging and physiological signals, including CNNs, transfer learning, and multi-label classification
-- Business intelligence dashboards that turn KPIs and trends into clear decision support
-- Machine learning workflows for classification, regression, clustering, and forecasting
-- Time series forecasting using models such as Random Forest and SARIMAX
-- Statistical analysis, hypothesis testing, and model evaluation
-- ETL, data cleaning, validation, and multi-source dataset integration
-- Data storytelling for technical and non-technical audiences
+- Applied machine learning for healthcare, customer behavior, forecasting, and operational decisions
+- ML systems that combine rigorous evaluation with usable interfaces, APIs, dashboards, and documentation
+- Responsible model evaluation, including calibration, threshold tuning, subgroup analysis, confidence intervals, and model cards
+- Data cleaning, feature engineering, ETL, SQL workflows, and multi-source dataset integration
+- Business intelligence and analytics that translate technical results into practical recommendations
 
 ---
 
@@ -52,120 +38,81 @@ Minor in Economics
 West Lafayette, Indiana  
 Graduated: May 2026
 
-
 ---
-
 
 ## Technical Skills
 
-### Programming Languages
+### Programming and Data
 
-Python, SQL, R, Java
+Python, SQL, R, Java, pandas, NumPy, Excel, Google Sheets
 
-### Data Science and Machine Learning
+### Machine Learning and Statistics
 
-Scikit-learn, XGBoost, Random Forest, Support Vector Machines, K-Nearest Neighbors, Logistic Regression, Decision Trees, SARIMAX, SMOTE, PCA, K-Means Clustering, Recursive Feature Elimination, GridSearchCV, model validation, feature selection, classification, regression, clustering, forecasting, dimensionality reduction, model interpretation
+scikit-learn, TensorFlow/Keras, PyTorch, Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, GridSearchCV, model validation, probability calibration, feature selection, residual analysis, hypothesis testing, A/B testing
 
-### Deep Learning
+### Analytics, BI, and Data Engineering
 
-PyTorch, TensorFlow/Keras, convolutional neural networks (CNNs), transfer learning (DenseNet-121), residual architectures, multi-label classification, attention pooling, multimodal fusion, model ensembling, test-time augmentation, mixed-precision training, early stopping, per-class threshold tuning, model calibration, SHAP explainability
+Tableau, Power BI, Matplotlib, Seaborn, Plotly, SQLite, MySQL, MS SQL Server, ETL workflows, data validation, KPI dashboards, reporting automation
 
-### Statistical Analysis
+### Deployment and Tools
 
-Hypothesis testing, correlation analysis, t-tests, ANOVA, chi-square tests, statistical modeling, causal inference, A/B testing, probability, confidence intervals, data distributions, class imbalance analysis, model diagnostics, residual analysis, multicollinearity analysis
-
-### Data Analysis and Data Engineering
-
-Exploratory data analysis, data cleaning, data wrangling, data validation, missing value imputation, label encoding, feature engineering, ETL, multi-source dataset integration, data transformation, business insight extraction, KPI tracking, documentation, reproducible analytical workflows
-
-### Databases and Querying
-
-MySQL, MS SQL Server, relational databases, SQL joins, complex queries, data extraction, data transformation, SQLite, database-backed analysis, structured data modeling
-
-### Visualization and Business Intelligence
-
-Tableau, Power BI, Matplotlib, Seaborn, Plotly, Excel dashboards, Google Sheets, KPI dashboards, regional sales dashboards, interactive filtering, visual analytics, reporting workflows
-
-### Tools and Platforms
-
-Jupyter Notebook, Git, GitHub, VS Code, Kaggle, Streamlit, Streamlit Sharing, BigQuery, Excel, Google Sheets, Docker, FastAPI, Gradio, GitHub Actions (CI/CD), Hugging Face Spaces
+FastAPI, Streamlit, Gradio, Docker, GitHub Actions, Hugging Face Spaces, Git, GitHub, VS Code, Jupyter Notebook, Kaggle
 
 ---
 
 ## How I Approach Data Projects
 
-I usually approach analytical work in a structured sequence:
-
-1. Understand the decision or research question
-2. Inspect the raw data and identify quality issues
+1. Define the business, clinical, or analytical question
+2. Inspect raw data and identify quality, leakage, and missingness issues
 3. Clean, validate, and document assumptions
-4. Engineer features that reflect the underlying problem
-5. Explore the data visually and statistically
-6. Build baseline models before adding complexity
-7. Evaluate models using appropriate metrics for the problem
-8. Interpret results in plain language
-9. Package insights into a notebook, dashboard, app, or report
-10. Identify practical next steps or recommendations
-
-This workflow shows up across my portfolio. For example, in my churn project I handled class imbalance with SMOTE before training a Random Forest model. In my diamond price project, I used VIF analysis to diagnose multicollinearity before narrowing the model. In my sales forecasting project, I merged multiple data sources and engineered lag-based and external-signal features. In my Aadhaar analysis, I used survey data to connect descriptive analysis with policy-oriented questions about access, exclusion, and service usage. In my chest X-ray and EchoNext-SHD deep learning projects, I built a from-scratch baseline before introducing transfer learning or ensembling, so that every reported gain could be attributed to a single controlled change rather than several at once.
+4. Engineer features that reflect the underlying decision problem
+5. Build simple baselines before adding complexity
+6. Evaluate with metrics that match the use case
+7. Interpret results in plain language
+8. Package the work as a notebook, dashboard, app, API, report, or model card
+9. Identify limitations, responsible-use boundaries, and practical next steps
 
 ---
 
 ## Featured Project Portfolio
 
-The projects below represent my public GitHub portfolio. They cover applied machine learning, business analytics, public policy analysis, forecasting, ETL, sports analytics, and interactive applications.
+The projects below represent my public GitHub portfolio. The strongest projects are listed first, with healthcare AI and deployment-focused ML work prioritized.
 
-| Project | Area | Core Methods | Repository |
+| Project | Area | Core Methods / Results | Repository |
 |---|---|---|---|
-| Chest X-Ray Multi-Label Disease Classification | Healthcare analytics, deep learning, medical imaging | PyTorch, from-scratch CNN baseline, DenseNet-121 transfer learning, class-weighted BCE, macro-AUROC evaluation | [Repository](https://github.com/aarshdesai-ds/chest-xray-classifier) |
-| EchoNext-SHD: Structural Heart Disease Detection from ECG | Healthcare analytics, deep learning, deployment | 1D-CNN residual architecture, attention pooling, multimodal fusion, 5-seed ensembling, FastAPI + Gradio serving | [Repository](https://github.com/aarshdesai-ds/echonext-shd-detection) |
-| Aadhaar Impact Analysis | Public policy analytics, EDA | Survey analysis, demographic comparison, equity-focused insight generation | [Repository](https://github.com/aarshdesai-ds/aadhaar-eda-project) |
-| Favorita Store Sales Forecasting | Time series forecasting, retail analytics | Random Forest, SARIMAX, feature engineering, model comparison | [Repository](https://github.com/aarshdesai-ds/favorita-sales-forecasting) |
-| Telco Customer Churn Prediction | Customer analytics, ML deployment | Random Forest, SMOTE, classification metrics, Streamlit app | [Repository](https://github.com/aarshdesai-ds/churn-prediction) |
-| Diabetes Risk Prediction Web App | Healthcare analytics, ML app | Random Forest with calibration, SHAP explainability, fairness auditing, threshold tuning, Streamlit, Docker/CI-CD | [Repository](https://github.com/aarshdesai-ds/diabetes-prediction) |
-| Augmented Olivetti Face Recognition | Computer vision, classification | PCA, SVM, KNN, K-Means clustering | [Repository](https://github.com/aarshdesai-ds/olivetti-face-recognition) |
-| Diamond Price Prediction | Regression modeling | Multiple Linear Regression, VIF, residual analysis, feature selection | [Repository](https://github.com/aarshdesai-ds/diamond-price-prediction) |
-| Census Income Classification | Classification, socioeconomic data | Logistic Regression, RFE, one-hot encoding, class imbalance evaluation | [Repository](https://github.com/aarshdesai-ds/census-income-logistic-regression) |
-| Cyclistic Bike Usage Analysis | Customer segmentation, BI analysis | EDA, Excel, SQL-style analysis, Python replication, business recommendations | [Repository](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) |
-| Video Game Sales Analysis | Market analytics, statistical testing | EDA, correlation analysis, t-tests, ANOVA, chi-square, visualization | [Repository](https://github.com/aarshdesai-ds/games-sales-analysis) |
-| La Liga Statistical Analysis | Sports analytics, model benchmarking | Betting odds, Pythagorean expectation, expected goals, team performance analysis | [Repository](https://github.com/aarshdesai-ds/La-Liga_Project_Aarsh) |
-| GDP Data ETL Pipeline | Data engineering, ETL | Web scraping, BeautifulSoup, pandas, SQLite, SQL querying, logging | [Repository](https://github.com/aarshdesai-ds/etl-project) |
+| EchoNext-SHD - Structural Heart Disease Detection from 12-Lead ECGs | Healthcare AI, ECG deep learning, deployment | 82,543 ECGs; 1D-CNN residual ensemble; ECG + clinical feature fusion; 0.842 AUROC / 0.812 AUPRC; FastAPI, Docker, Gradio, GitHub Actions | [Repository](https://github.com/aarshdesai-ds/echonext-shd-detection) |
+| Early Diabetes Risk Screening - End-to-End ML Web App | Responsible ML, healthcare screening | 768 records; calibrated Random Forest; 0.84 ROC AUC / 0.74 AUPRC; SHAP explanations, threshold tuning, model card, Docker, CI/CD | [Repository](https://github.com/aarshdesai-ds/diabetes-prediction) |
+| Augmented Olivetti Face Recognition | Computer vision, classification | 2,000 face images; PCA, SVM, KNN, K-Means; linear SVM reached 98% test accuracy and 0.98 macro F1 | [Repository](https://github.com/aarshdesai-ds/olivetti-face-recognition) |
+| Telco Customer Churn Prediction | Customer analytics, ML app | 7,043 customers; SMOTE + Random Forest; 85.0% accuracy, 84.1% precision, 86.8% recall; Streamlit app | [Repository](https://github.com/aarshdesai-ds/churn-prediction) |
+| Favorita Store Sales Forecasting | Time series forecasting, retail analytics | 3,000,888 training records; six-source feature engineering; Random Forest vs. SARIMAX; R2 0.9516, MAE 79.45 on 15-day holdout | [Repository](https://github.com/aarshdesai-ds/favorita-sales-forecasting) |
+| GDP Data ETL Pipeline | Data engineering, ETL | Web scraping with BeautifulSoup; GDP values cleaned into USD billions; 191 records written to CSV and SQLite; SQL query + logging | [Repository](https://github.com/aarshdesai-ds/etl-project) |
+| Census Income Classification | Interpretable ML, socioeconomic data | 32,561 records; Logistic Regression + RFE; 5-feature model reached roughly 82% accuracy and weighted F1 0.807 | [Repository](https://github.com/aarshdesai-ds/census-income-logistic-regression) |
+| Loan Default Risk Dashboard | Analytics dashboard, financial risk | 148,670 loan records; 34 features; 24.64% default rate; Streamlit dashboard with filters and 25 saved plots | [Repository](https://github.com/aarshdesai-ds/loan-risk-dashboard) |
+| Diamond Price Prediction | Regression modeling, diagnostics | 53,940 diamonds; VIF and residual analysis; 3-feature final model reached test R2 0.902 | [Repository](https://github.com/aarshdesai-ds/diamond-price-prediction) |
+| Cyclistic Bike Usage Analysis | Customer segmentation, BI analysis | 1M+ rides; January-April 2024 rider behavior; membership conversion recommendations | [Repository](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) |
+| Video Game Sales Analysis | Market analytics, statistical testing | 16,620 cleaned records; regional sales, platform, genre, rating, correlation, t-test, ANOVA, and chi-square analysis | [Repository](https://github.com/aarshdesai-ds/games-sales-analysis) |
+| Aadhaar Impact Analysis | Public policy analytics, EDA | 112,244 survey records; service access, demographic coverage, exclusion patterns, sentiment, and equity-focused recommendations | [Repository](https://github.com/aarshdesai-ds/aadhaar-eda-project) |
+| La Liga Statistical Analysis | Sports analytics, model benchmarking | 3,040 matches across 8 seasons; betting odds, Pythagorean expectation, xG modeling, residual analysis, market-bias findings | [Repository](https://github.com/aarshdesai-ds/La-Liga_Project_Aarsh) |
 
 ---
 
 ## Project Themes Across My Portfolio
 
-### Machine Learning and Predictive Modeling
+### Healthcare AI and Responsible ML
 
-I have built models for churn prediction, diabetes risk prediction, income classification, diamond price prediction, facial recognition, sales forecasting, and sports outcome prediction. These projects use Logistic Regression, Random Forest, Decision Trees, SVM, KNN, SARIMAX, K-Means, PCA, and optional XGBoost workflows.
+My strongest projects focus on healthcare-oriented machine learning with careful evaluation and clear responsible-use boundaries. EchoNext-SHD uses ECG deep learning for structural heart disease screening, while the diabetes project emphasizes calibration, threshold tuning, SHAP explanations, subgroup analysis, CI/CD, Docker, and model-card documentation.
 
-### Deep Learning for Medical Imaging and Physiological Signals
+### Applied ML and Predictive Analytics
 
-Two of my larger projects apply deep learning directly to healthcare data. The [chest X-ray classifier](https://github.com/aarshdesai-ds/chest-xray-classifier) is a multi-phase PyTorch project that builds patient-safe data splits for the NIH Chest X-ray dataset, trains a from-scratch CNN baseline (0.604 test macro-AUROC), and then applies DenseNet-121 transfer learning across frozen, fine-tuned, and class-weighted configurations to reach 0.797 test macro-AUROC while shrinking the validation-to-test generalization gap from 0.090 to 0.025. The [EchoNext-SHD project](https://github.com/aarshdesai-ds/echonext-shd-detection) detects echocardiogram-confirmed structural heart disease from 12-lead ECGs, replacing an under-performing baseline architecture with a 1D-CNN residual "tokenizer" and attention pooling, fusing the waveform with clinical features, and using a 5-seed ensemble with test-time augmentation to reach 0.842 test AUROC — comparable to the published EchoNext benchmark despite far less training data. Both projects go beyond notebooks: they include rigorous per-class evaluation, honest ablations, model cards, and (for EchoNext-SHD) a containerized FastAPI and Gradio serving stack with CI.
+I have built models for churn prediction, diabetes risk, income classification, diamond pricing, face recognition, sales forecasting, and sports performance modeling. These projects use methods such as Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, and regression diagnostics.
 
-### Business Intelligence and Decision Support
+### Data Engineering, Dashboards, and Decision Support
 
-Several projects are designed around practical decisions: identifying churn risk, understanding bike-share user behavior, forecasting retail demand, comparing team performance benchmarks, and building dashboards for decision-making. I focus on connecting technical work to the question a stakeholder actually needs answered.
+Several projects turn raw data into practical decision tools: a GDP ETL pipeline with SQLite output, a loan default dashboard, a Cyclistic rider segmentation analysis, and forecasting workflows that merge external signals such as holidays, transactions, oil prices, and store metadata.
 
-### Data Cleaning and Feature Engineering
+### Statistical Thinking and Communication
 
-Across my portfolio, I regularly work with missing values, categorical encoding, date extraction, lag features, merged datasets, survey files, high-dimensional arrays, external indicators, and noisy real-world records. I view cleaning and feature design as central parts of the modeling process, not just setup work.
-
-### Statistical Thinking
-
-I use statistical tests, residual diagnostics, multicollinearity checks, class distribution analysis, and model validation to understand the reliability of results. My projects often compare multiple methods rather than relying on a single model output.
-
-### Dashboards and Apps
-
-I have experience building interactive analytical tools using Streamlit, Tableau, Power BI, Excel, and Google Sheets. I am interested in dashboards and apps that make analysis usable for people who need to explore data, evaluate scenarios, or make decisions quickly.
-
-### Sports Analytics
-
-My sports analytics projects include World Cup prediction and La Liga team performance modeling. These projects use domain-specific features such as Elo ratings, form metrics, head-to-head records, betting odds, expected goals, and simulation. I enjoy sports analytics because it combines human behavior, uncertainty, strategy, and statistical modeling.
-
-### Healthcare and Social Impact Analytics
-
-My healthcare and public policy projects include diabetes risk prediction, the chest X-ray disease classifier, the EchoNext-SHD ECG-based structural heart disease detector, and Aadhaar survey analysis. These projects reflect my interest in data problems where the outcome affects access, operations, care quality, or public service delivery, and in building models that are evaluated and documented responsibly enough to discuss in a clinical or policy context — including calibration, fairness auditing, model cards, and clear statements of intended use and limitations.
+I use statistical tests, residual diagnostics, model comparison, class-imbalance analysis, confidence intervals, and plain-language reporting to make results easier to trust and act on.
 
 ---
 
@@ -177,60 +124,30 @@ My healthcare and public policy projects include diabetes risk prediction, the c
 
 ---
 
-## Selected Tools by Use Case
-
-### For Analysis and Modeling
-
-Python, pandas, NumPy, scikit-learn, statsmodels, SciPy, XGBoost, PyTorch, TensorFlow/Keras, Jupyter Notebook
-
-### For Databases and Data Processing
-
-SQL, MySQL, MS SQL Server, SQLite, BigQuery, ETL workflows, relational joins, data validation
-
-### For Visualization
-
-Tableau, Power BI, Matplotlib, Seaborn, Plotly, Excel, Google Sheets
-
-### For Applications and Deployment
-
-Streamlit, Streamlit Sharing, Docker, FastAPI, Gradio, GitHub Actions (CI/CD), Hugging Face Spaces, GitHub, Git, VS Code
-
-### For Reporting and Communication
-
-Jupyter notebooks, Markdown documentation, dashboards, PDF reports, business summaries, KPI reporting
-
----
-
 ## What I Bring to a Team
 
-- A strong technical foundation in data science, statistics, programming, and databases
-- The ability to clean and structure messy data before analysis
-- Practical experience with dashboards, reports, and stakeholder-facing insights
-- Comfort moving between notebooks, SQL queries, spreadsheets, dashboards, and apps
-- A clear communication style developed through teaching, internships, and supervisory work
-- Curiosity about both the technical model and the business question behind it
-- A habit of documenting work so that others can understand, reproduce, and build on it
+- Strong foundation in data science, statistics, programming, and databases
+- Comfort moving between notebooks, SQL, dashboards, APIs, reports, and deployed apps
+- Practical experience with healthcare analytics, education analytics, BI workflows, and stakeholder reporting
+- A habit of documenting assumptions, limitations, and reproducible workflows
+- Clear communication developed through internships, teaching assistant work, and operations leadership
 
 ---
 
 ## Areas I Am Excited to Work On
 
-- Data analyst and business data analyst roles
-- Business intelligence and dashboard development
-- Junior data scientist and machine learning analyst roles
-- Healthcare analytics and operations analytics
-- Deep learning applications in medical imaging and physiological signal analysis
-- Customer analytics, churn, segmentation, and retention modeling
-- Forecasting and demand planning
-- Sports analytics and performance modeling
-- Public policy and social impact analytics
-- Data engineering foundations for analytics teams
+- Data Science and Applied Machine Learning
+- Machine Learning Engineering and ML deployment
+- Healthcare AI, clinical risk modeling, and responsible ML
+- Business intelligence, analytics engineering, and dashboard development
+- Forecasting, customer analytics, churn, segmentation, and operational decision support
+- Data engineering foundations for analytics and ML teams
 
 ---
 
 ## Contact
 
-I am always interested in connecting with people working in data science, analytics, machine learning, business intelligence, healthcare analytics, sports analytics, and applied statistics.
+I am interested in connecting with teams working in data science, applied machine learning, healthcare AI, analytics, business intelligence, and data-driven decision systems.
 
 - LinkedIn: [Aarsh Desai](https://www.linkedin.com/in/aarsh-desai-5953b0277/)
 - GitHub: [aarshdesai-ds](https://github.com/aarshdesai-ds)
