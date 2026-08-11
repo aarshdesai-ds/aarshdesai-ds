@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aarsh Desai — AI Product Engineer</title>
+<meta name="description" content="Aarsh Desai — AI Product Engineer building healthcare AI, LLM/RAG, and deployment-ready machine learning systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="mark" href="#top" aria-label="Aarsh Desai, home">
+    <svg class="mark-trace" viewBox="0 0 60 24" aria-hidden="true">
+      <path d="M0,12 L10,12 L14,4 L18,20 L22,12 L60,12" />
+    </svg>
+    <span>Aarsh Desai</span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-ghost nav-resume" href="assets/Aarsh_Desai_Resume.pdf" target="_blank" rel="noopener">Résumé ↓</a>
+</header>
+
+<main>
+
+  <section class="hero">
+    <svg class="hero-grid" viewBox="0 0 1200 800" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <pattern id="chartgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0H0V40" fill="none" stroke="rgba(232,163,61,0.06)" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="800" fill="url(#chartgrid)"/>
+    </svg>
+
+    <p class="eyebrow">AI Product Engineer — Healthcare AI · LLM/RAG · Deployment</p>
+    <h1 class="hero-headline">
+      I build AI that reads<br>
+      clinical signal — <em>and knows its own limits.</em>
+    </h1>
+    <p class="hero-sub">
+      From 12‑lead ECGs to multilingual health‑coaching calls, I ship models with the guardrails,
+      audits, and documentation that make them safe to put in front of real patients and clinicians.
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#work">View projects</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+
+    <svg class="hero-wave" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+      <path id="wavePath" d="M0,60 L30,52 L50,60 L90,60 L95,68 L105,5 L115,100 L130,60 L160,60 L190,42 L220,60 L300,60 L330,52 L350,60 L390,60 L395,68 L405,5 L415,100 L430,60 L460,60 L490,42 L520,60 L600,60 L630,52 L650,60 L690,60 L695,68 L705,5 L715,100 L730,60 L760,60 L790,42 L820,60 L900,60 L930,52 L950,60 L990,60 L995,68 L1005,5 L1015,100 L1030,60 L1060,60 L1090,42 L1120,60 L1200,60" />
+    </svg>
+
+    <dl class="vitals">
+      <div><dt>Program</dt><dd>B.S. Data Science, Purdue &apos;26</dd></div>
+      <div><dt>Base</dt><dd>Redlands, CA</dd></div>
+      <div><dt>Focus</dt><dd>Healthcare AI, LLM/RAG, MLOps</dd></div>
+      <div><dt>Status</dt><dd>No visa sponsorship required</dd></div>
+    </dl>
+  </section>
+
+  <section class="section" id="work">
+    <div class="section-head">
+      <p class="eyebrow">Selected work</p>
+      <h2>Three systems, one throughline: noisy signal in, trustworthy decisions out.</h2>
+    </div>
+
+    <div class="projects">
+      <article class="project">
+        <div class="project-top">
+          <h3>Structural Heart Disease Detection from 12‑Lead ECG</h3>
+          <a class="project-link" href="https://github.com/aarshdesai-ds/echonext-shd-detection" target="_blank" rel="noopener">Repo ↗</a>
+        </div>
+        <p>1D‑CNN residual ensemble with real‑time ECG + clinical feature fusion, containerized end‑to‑end
+          with FastAPI and Docker, CI via GitHub Actions, and a versioned model registry.</p>
+        <div class="metrics">
+          <span><b>0.842</b> AUROC</span>
+          <span><b>82,543</b> ECGs</span>
+          <span><b>FastAPI</b> + Docker</span>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-top">
+          <h3>Early Diabetes Risk Screening Web App</h3>
+          <a class="project-link" href="https://github.com/aarshdesai-ds/diabetes-prediction" target="_blank" rel="noopener">Repo ↗</a>
+        </div>
+        <p>Probability‑calibrated Random Forest behind a leak‑free train/serve pipeline. Threshold tuned to
+          84% sensitivity, SHAP + permutation explainability, and a subgroup bias audit that surfaced an
+          age‑band recall gap — documented in a model card with a "not a medical device" disclaimer.</p>
+        <div class="metrics">
+          <span><b>0.84</b> ROC AUC</span>
+          <span><b>0.74</b> AUPRC</span>
+          <span><b>84%</b> sensitivity</span>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-top">
+          <h3>NIH Chest X‑Ray Multi‑Label Classifier</h3>
+          <a class="project-link" href="https://github.com/aarshdesai-ds/chest-xray-classifier" target="_blank" rel="noopener">Repo ↗</a>
+        </div>
+        <p>PyTorch / DenseNet‑121 classifier trained on 112,120 frontal X‑rays across 30,805 patients to
+          detect 14 thoracic findings, with patient‑level splits, Grad‑CAM auditing, and a live Streamlit
+          demo for research‑only use.</p>
+        <div class="metrics">
+          <span><b>0.604 → 0.797</b> macro‑AUROC</span>
+          <span><b>112,120</b> X‑rays</span>
+          <span><b>14</b> findings</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="section-head">
+      <p class="eyebrow">Experience</p>
+      <h2>Where I&apos;ve put these systems to work.</h2>
+    </div>
+
+    <ol class="timeline">
+      <li>
+        <div class="tl-date">Jul 2026 — Sep 2026</div>
+        <div class="tl-body">
+          <h3>AI Product Engineer Intern · Raaz MD</h3>
+          <p>Built an end‑to‑end multilingual voice‑AI pipeline that transcribed and translated Hindi
+            health‑coaching calls, retrieved patient history via RAG (ChromaDB), and generated structured
+            clinical summaries with a locally hosted 4‑bit quantized LLM (Mistral‑7B). Automated call‑type
+            routing separated clinical follow‑up from logistics escalations, cutting manual review time.</p>
+          <p>Added reliability safeguards against hallucination — prompt‑level plausibility guardrails
+            validated on real transcripts, plus a PII de‑identification layer (NER‑based redaction and phone
+            pseudonymization) for compliant handling of sensitive data at scale.</p>
+        </div>
+      </li>
+      <li>
+        <div class="tl-date">Aug 2025 — Dec 2025</div>
+        <div class="tl-body">
+          <h3>Undergraduate Teaching Assistant · Purdue University</h3>
+          <p>Enabled 50+ first‑year students to complete coding assignments independently by teaching Python,
+            Git, and command‑line workflows in weekly sessions, and resolved code errors one‑on‑one during
+            office hours.</p>
+        </div>
+      </li>
+      <li>
+        <div class="tl-date">May 2024 — Aug 2024</div>
+        <div class="tl-body">
+          <h3>Data Analyst Intern · Oeson Learning</h3>
+          <p>Built automated Python workflows to ingest, validate, and orchestrate 50,000+ data rows,
+            improving baseline reliability by 20%, and formulated testing frameworks with continuous A/B
+            tracking that drove a 9% improvement in system interaction metrics. Cut stakeholder reporting
+            time 40% with Tableau dashboards.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-head">
+      <p class="eyebrow">Skills</p>
+      <h2>The stack behind the systems.</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Machine Learning &amp; Deep Learning</h3>
+        <p>PyTorch, TensorFlow/Keras, Scikit‑learn, CNNs, 1D‑CNN ensembles, DenseNet‑121, Transfer Learning,
+          Transformer Architecture, Random Forest, XGBoost, SVM, KNN, SARIMAX, PCA, K‑Means</p>
+      </div>
+      <div class="skill-group">
+        <h3>AI Engineering</h3>
+        <p>LLMs &amp; Transformers, Fine‑Tuning (LoRA), Retrieval‑Augmented Generation, LangChain, Hugging Face,
+          Vector Databases, Prompt Engineering</p>
+      </div>
+      <div class="skill-group">
+        <h3>Deployment, MLOps &amp; Evaluation</h3>
+        <p>FastAPI, Docker, GitHub Actions CI, Model Registry, Git LFS, Gradio, Streamlit, Real‑Time Inference,
+          GridSearchCV, Cross‑Validation, Bootstrap Confidence Intervals, Calibration, AUROC/AUPRC, Grad‑CAM</p>
+      </div>
+      <div class="skill-group">
+        <h3>Core</h3>
+        <p>Python, Pandas, NumPy, SQL, Git/GitHub</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="certifications">
+    <div class="section-head">
+      <p class="eyebrow">Certifications</p>
+      <h2>Credentialed and still learning.</h2>
+    </div>
+    <ul class="certs">
+      <li><span>Google Data Analytics Professional Certificate</span><time>Jul 2024</time></li>
+      <li><span>Google Advanced Data Analytics Professional Certificate</span><time>Aug 2024</time></li>
+      <li><span>SQL for Data Science — University of California, Davis</span><time>Oct 2024</time></li>
+      <li><span>IBM AI Engineering Professional Certificate</span><time>In progress · Exp. Sep 2026</time></li>
+    </ul>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="section-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Building something in healthcare AI or applied ML? Let&apos;s talk.</h2>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:aarshdesai004@gmail.com">aarshdesai004@gmail.com</a>
+      <a href="https://www.linkedin.com/in/aarsh-desai-5953b0277/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://github.com/aarshdesai-ds" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="assets/Aarsh_Desai_Resume.pdf" target="_blank" rel="noopener">Résumé ↓</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Aarsh Desai</span>
+  <span>Redlands, CA</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
