@@ -106,6 +106,7 @@ The projects below represent my public GitHub portfolio. The strongest projects 
 | Cyclistic Bike Usage Analysis | Customer segmentation, BI analysis | 1M+ rides; January-April 2024 rider behavior; membership conversion recommendations | [Repository](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) |
 | Video Game Sales Analysis | Market analytics, statistical testing | 16,620 cleaned records; regional sales, platform, genre, rating, correlation, t-test, ANOVA, and chi-square analysis | [Repository](https://github.com/aarshdesai-ds/games-sales-analysis) |
 | Aadhaar Impact Analysis | Public policy analytics, EDA | 112,244 survey records; service access, demographic coverage, exclusion patterns, sentiment, and equity-focused recommendations | [Repository](https://github.com/aarshdesai-ds/aadhaar-eda-project) |
+| Mumbai Indians 2024-2026 IPL Case Study | Sports analytics, hypothesis testing | 219 matches across 3 seasons, ball-by-ball; phase-split (powerplay/middle/death) root-cause analysis; formal testing (Welch's t-test, Mann-Whitney U, Fisher's exact, Pearson) reporting only confirmed findings; recruitment shortlist verified against real Cricsheet data across 9 T20 competitions | [Repository](https://github.com/aarshdesai-ds/mi-2024-2026-case-study) |
 | La Liga Statistical Analysis | Sports analytics, model benchmarking | 3,040 matches across 8 seasons; betting odds, Pythagorean expectation, xG modeling, residual analysis, market-bias findings | [Repository](https://github.com/aarshdesai-ds/La-Liga_Project_Aarsh) |
 
 ---
@@ -130,7 +131,7 @@ Several projects turn raw data into practical decision tools: a GDP ETL pipeline
 
 ### Statistical Thinking and Communication
 
-I use statistical tests, residual diagnostics, model comparison, class-imbalance analysis, confidence intervals, and plain-language reporting to make results easier to trust and act on.
+I use statistical tests, residual diagnostics, model comparison, class-imbalance analysis, confidence intervals, and plain-language reporting to make results easier to trust and act on. My Mumbai Indians IPL case study is a concentrated example: a ball-by-ball investigation across three seasons that applies the right test to each data shape (Welch's t-test, Mann-Whitney U, Fisher's exact test) and deliberately separates statistically confirmed findings from descriptively compelling but underpowered ones.
 
 ---
 
