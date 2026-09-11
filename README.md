@@ -11,8 +11,9 @@ My work spans applied machine learning, healthcare AI, analytics, forecasting, d
 ## Professional Snapshot
 
 - Purdue University B.S. Data Science graduate, with a minor in Economics
+- Currently an AI Product Engineer Intern at Raaz MD, building multilingual voice-AI and RAG/LLM pipelines that turn clinical calls into structured documentation
 - Focused on applied ML, healthcare AI, analytics, model evaluation, and deployment-ready data products
-- Built public projects across ECG deep learning, responsible clinical risk screening, computer vision, churn prediction, forecasting, ETL, dashboards, regression, statistical analysis, and sports/public-policy analytics
+- Built public projects across ECG deep learning, medical-imaging classification, responsible clinical risk screening, computer vision, churn prediction, forecasting, ETL, dashboards, regression, statistical analysis, and sports/public-policy analytics
 - Built production-shaped ML projects with FastAPI, Docker, Streamlit, Gradio, GitHub Actions, CI/CD, model cards, calibration, and explainability
 - Internship experience across healthcare and education analytics, including 3,000+ patient records, 10+ recurring analytical reports, 50,000+ education records, Tableau dashboards, and Python data workflows
 - No U.S. work visa sponsorship required
@@ -22,6 +23,7 @@ My work spans applied machine learning, healthcare AI, analytics, forecasting, d
 ## Current Focus Areas
 
 - Applied machine learning for healthcare, customer behavior, forecasting, and operational decisions
+- Generative AI and LLM applications, including RAG pipelines, guardrails, and responsible deployment
 - ML systems that combine rigorous evaluation with usable interfaces, APIs, dashboards, and documentation
 - Responsible model evaluation, including calibration, threshold tuning, subgroup analysis, confidence intervals, and model cards
 - Data cleaning, feature engineering, ETL, SQL workflows, and multi-source dataset integration
@@ -40,6 +42,17 @@ Graduated: May 2026
 
 ---
 
+## Experience
+
+### Raaz MD - AI Product Engineer Intern
+Jul 2026 - Present
+
+- Building an end-to-end multilingual voice-AI pipeline that transcribes and translates Hindi health-coaching calls into structured clinical summaries, using RAG with ChromaDB for patient-history retrieval and a locally hosted 4-bit quantized Mistral-7B model, delivering accurate summaries that streamline clinician review
+- Developing an automated call-type routing system that separates clinical follow-ups from logistics escalations, reducing manual review time and accelerating documentation workflow
+- Implementing reliability safeguards - prompt-level plausibility guardrails to catch LLM hallucinations, plus a PII de-identification layer (NER-based redaction and phone-number pseudonymization) - lowering false risk assessments and ensuring compliant handling of sensitive data
+
+---
+
 ## Technical Skills
 
 ### Programming and Data
@@ -48,7 +61,7 @@ Python, SQL, R, Java, pandas, NumPy, Excel, Google Sheets
 
 ### Machine Learning and Statistics
 
-scikit-learn, TensorFlow/Keras, PyTorch, Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, GridSearchCV, model validation, probability calibration, feature selection, residual analysis, hypothesis testing, A/B testing
+scikit-learn, TensorFlow/Keras, PyTorch, DenseNet, transfer learning, Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, GridSearchCV, model validation, probability calibration, feature selection, residual analysis, hypothesis testing, A/B testing, LLMs, retrieval-augmented generation (RAG)
 
 ### Analytics, BI, and Data Engineering
 
@@ -56,7 +69,7 @@ Tableau, Power BI, Matplotlib, Seaborn, Plotly, SQLite, MySQL, MS SQL Server, ET
 
 ### Deployment and Tools
 
-FastAPI, Streamlit, Gradio, Docker, GitHub Actions, Hugging Face Spaces, Git, GitHub, VS Code, Jupyter Notebook, Kaggle
+FastAPI, Streamlit, Gradio, Docker, GitHub Actions, Hugging Face Spaces, Grad-CAM, ChromaDB, Git, GitHub, VS Code, Jupyter Notebook, Kaggle
 
 ---
 
@@ -82,6 +95,7 @@ The projects below represent my public GitHub portfolio. The strongest projects 
 |---|---|---|---|
 | EchoNext-SHD - Structural Heart Disease Detection from 12-Lead ECGs | Healthcare AI, ECG deep learning, deployment | 82,543 ECGs; 1D-CNN residual ensemble; ECG + clinical feature fusion; 0.842 AUROC / 0.812 AUPRC; FastAPI, Docker, Gradio, GitHub Actions | [Repository](https://github.com/aarshdesai-ds/echonext-shd-detection) |
 | Early Diabetes Risk Screening - End-to-End ML Web App | Responsible ML, healthcare screening | 768 records; calibrated Random Forest; 0.84 ROC AUC / 0.74 AUPRC; SHAP explanations, threshold tuning, model card, Docker, CI/CD | [Repository](https://github.com/aarshdesai-ds/diabetes-prediction) |
+| NIH Chest X-Ray Multi-Label Classifier - 14-Finding Detection | Healthcare AI, medical imaging, deployment | 112,120 chest X-rays; DenseNet-121 (CheXNet) transfer learning; 0.797 test macro-AUROC (vs. 0.604 from-scratch baseline); patient-level splits, per-class threshold tuning, Grad-CAM shortcut audit, model card, live Streamlit app | [Repository](https://github.com/aarshdesai-ds/chest-xray-classifier) |
 | Augmented Olivetti Face Recognition | Computer vision, classification | 2,000 face images; PCA, SVM, KNN, K-Means; linear SVM reached 98% test accuracy and 0.98 macro F1 | [Repository](https://github.com/aarshdesai-ds/olivetti-face-recognition) |
 | Telco Customer Churn Prediction | Customer analytics, ML app | 7,043 customers; SMOTE + Random Forest; 85.0% accuracy, 84.1% precision, 86.8% recall; Streamlit app | [Repository](https://github.com/aarshdesai-ds/churn-prediction) |
 | Favorita Store Sales Forecasting | Time series forecasting, retail analytics | 3,000,888 training records; six-source feature engineering; Random Forest vs. SARIMAX; R2 0.9516, MAE 79.45 on 15-day holdout | [Repository](https://github.com/aarshdesai-ds/favorita-sales-forecasting) |
@@ -100,11 +114,15 @@ The projects below represent my public GitHub portfolio. The strongest projects 
 
 ### Healthcare AI and Responsible ML
 
-My strongest projects focus on healthcare-oriented machine learning with careful evaluation and clear responsible-use boundaries. EchoNext-SHD uses ECG deep learning for structural heart disease screening, while the diabetes project emphasizes calibration, threshold tuning, SHAP explanations, subgroup analysis, CI/CD, Docker, and model-card documentation.
+My strongest projects focus on healthcare-oriented machine learning with careful evaluation and clear responsible-use boundaries. EchoNext-SHD uses ECG deep learning for structural heart disease screening, while the diabetes project emphasizes calibration, threshold tuning, SHAP explanations, subgroup analysis, CI/CD, Docker, and model-card documentation. The NIH chest X-ray classifier extends this work into medical imaging, using DenseNet-121 transfer learning with patient-level splits, per-class threshold tuning, a Grad-CAM shortcut audit, and a live Streamlit deployment, all documented with a model card and clear responsible-use boundaries.
 
 ### Applied ML and Predictive Analytics
 
 I have built models for churn prediction, diabetes risk, income classification, diamond pricing, face recognition, sales forecasting, and sports performance modeling. These projects use methods such as Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, and regression diagnostics.
+
+### Computer Vision and Deep Learning
+
+My deep-learning work spans signals and images: a 1D-CNN residual ensemble for ECG-based structural heart disease detection, a DenseNet-121 transfer-learning classifier for 14-finding chest X-ray screening, and a classical PCA-plus-SVM face-recognition pipeline. Across these I focus on leakage-safe evaluation, honest metric selection, and interpretability through tools such as Grad-CAM.
 
 ### Data Engineering, Dashboards, and Decision Support
 
@@ -121,6 +139,8 @@ I use statistical tests, residual diagnostics, model comparison, class-imbalance
 - Google Data Analytics Professional Certificate, July 2024
 - Google Advanced Data Analytics Professional Certificate, August 2024
 - SQL for Data Science, University of California, Davis, October 2024
+- IBM AI Engineering Professional Certificate (in progress)
+- IBM Data Engineering Professional Certificate (in progress)
 
 ---
 
@@ -139,6 +159,7 @@ I use statistical tests, residual diagnostics, model comparison, class-imbalance
 - Data Science and Applied Machine Learning
 - Machine Learning Engineering and ML deployment
 - Healthcare AI, clinical risk modeling, and responsible ML
+- Generative AI, LLM applications, and RAG systems
 - Business intelligence, analytics engineering, and dashboard development
 - Forecasting, customer analytics, churn, segmentation, and operational decision support
 - Data engineering foundations for analytics and ML teams
