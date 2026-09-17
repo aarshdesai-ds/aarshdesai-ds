@@ -118,6 +118,10 @@ The projects below represent my public GitHub portfolio. The strongest projects 
 
 My strongest projects focus on healthcare-oriented machine learning with careful evaluation and clear responsible-use boundaries. EchoNext-SHD uses ECG deep learning for structural heart disease screening, while the diabetes project emphasizes calibration, threshold tuning, SHAP explanations, subgroup analysis, CI/CD, Docker, and model-card documentation. The NIH chest X-ray classifier extends this work into medical imaging, using DenseNet-121 transfer learning with patient-level splits, per-class threshold tuning, a Grad-CAM shortcut audit, and a live Streamlit deployment, all documented with a model card and clear responsible-use boundaries.
 
+### GenAI/LLM Applications and Deployment
+
+My generative AI work focuses on production-shaped LLM systems rather than one-off prototypes. The Incident Triage Pipeline rebuilds a single-notebook proof of concept into a tested FastAPI microservice - schema-enforced structured outputs, typed error classification with retry logic, and bounded-concurrency batch processing - verified against a live provider API and backed by 149 automated tests. At Raaz MD, this extends into RAG-based clinical documentation: a multilingual voice-AI pipeline built on ChromaDB retrieval and a locally hosted 4-bit quantized Mistral-7B model, with hallucination guardrails and PII de-identification layered in for safe, compliant deployment.
+
 ### Applied ML and Predictive Analytics
 
 I have built models for churn prediction, diabetes risk, income classification, diamond pricing, face recognition, sales forecasting, and sports performance modeling. These projects use methods such as Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, and regression diagnostics.
