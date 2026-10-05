@@ -1,44 +1,59 @@
-# About Me
+# Aarsh Desai
 
-Data Science graduate from Purdue University with a minor in Economics, focused on building practical machine learning and analytics systems that turn messy real-world data into reliable decisions.
+Applied ML and healthcare AI engineer. I build machine learning and LLM systems for clinical and operational decisions, and I measure them before I trust them.
 
-My work spans applied machine learning, healthcare AI, analytics, forecasting, data engineering, and ML deployment. I like owning the full workflow: cleaning and validating data, engineering features, training and evaluating models, building dashboards or APIs, and explaining results clearly to technical and non-technical stakeholders.
+My work covers three areas: LLM applications with retrieval, agents and guardrails; deep learning on medical signals and images; and the engineering that makes a model usable, such as APIs, tests, deployment and documentation.
 
-[LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/) | [GitHub](https://github.com/aarshdesai-ds) | [Email](mailto:aarshdesai004@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/) | [Email](mailto:aarshdesai004@gmail.com)
 
 ---
 
-## Professional Snapshot
+## Snapshot
 
-- Purdue University B.S. Data Science graduate, with a minor in Economics
-- Currently an AI Product Engineer Intern at Raaz MD, building multilingual voice-AI and RAG/LLM pipelines that turn clinical calls into structured documentation
-- Focused on applied ML, healthcare AI, analytics, model evaluation, and deployment-ready data products
-- Built public projects across ECG deep learning, medical-imaging classification, responsible clinical risk screening, computer vision, churn prediction, forecasting, ETL, dashboards, regression, statistical analysis, and sports/public-policy analytics
-- Built production-shaped ML projects with FastAPI, Docker, Streamlit, Gradio, GitHub Actions, CI/CD, model cards, calibration, and explainability
-- Internship experience across healthcare and education analytics, including 3,000+ patient records, 10+ recurring analytical reports, 50,000+ education records, Tableau dashboards, and Python data workflows
+- B.S. Data Science, Purdue University (May 2026), with a minor in Economics
+- AI Product Engineer Intern at Raaz MD, building multilingual voice-AI and RAG pipelines that turn clinical calls into structured documentation
+- Healthcare AI projects across ECG deep learning, chest X-ray classification, clinical risk screening and patient-message triage
+- LLM systems with labelled evaluation sets, tool-calling agents and code-level guardrails
+- Internship experience in healthcare and education analytics: 3,000+ patient records, 50,000+ education records, Tableau dashboards and recurring reports
 - No U.S. work visa sponsorship required
 
 ---
 
-## Current Focus Areas
+## Featured Projects
 
-- Applied machine learning for healthcare, customer behavior, forecasting, and operational decisions
-- Generative AI and LLM applications, including RAG pipelines, guardrails, and responsible deployment
-- ML systems that combine rigorous evaluation with usable interfaces, APIs, dashboards, and documentation
-- Responsible model evaluation, including calibration, threshold tuning, subgroup analysis, confidence intervals, and model cards
-- Data cleaning, feature engineering, ETL, SQL workflows, and multi-source dataset integration
-- Business intelligence and analytics that translate technical results into practical recommendations
+### Healthcare AI
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [CardioDesk](https://github.com/aarshdesai-ds/cardiodesk-patient-message-assistant) | RAG assistant that triages patient portal messages for a heart clinic and drafts replies for nurse review | Two-layer safety check caught 16 of 16 emergencies on 54 labelled synthetic messages (rules alone 11, model alone 13); a tool-calling agent chose the correct tools in 22 of 22 checked cases; FastAPI and Streamlit, deployed |
+| [EchoNext-SHD](https://github.com/aarshdesai-ds/echonext-shd-detection) | Structural heart disease detection from 12-lead ECGs | 82,543 ECGs; 1D-CNN residual ensemble with ECG and clinical feature fusion; 0.842 AUROC and 0.812 AUPRC; calibration, ablations, model card; FastAPI, Docker, Gradio, GitHub Actions |
+| [Chest X-Ray Classifier](https://github.com/aarshdesai-ds/chest-xray-classifier) | Multi-label detection of 14 thoracic findings on NIH ChestX-ray14 | 112,120 X-rays; DenseNet-121 transfer learning; 0.797 test macro-AUROC against 0.604 for a from-scratch baseline; patient-level splits, per-class thresholds, Grad-CAM audit, live Streamlit app |
+| [Diabetes Risk Screening](https://github.com/aarshdesai-ds/diabetes-prediction) | An end-to-end screening demo built the way a real ML product is | Calibrated Random Forest; 0.84 ROC AUC and 0.74 AUPRC; recall-first threshold, SHAP explanations, model card, tests, CI/CD, Docker |
+| [SurgiCare HMS](https://github.com/aarshdesai-ds/surgicare-hms) | Hospital management system for SurgiCare Hospital, in active development | Patients, OPD token queue, operation-theatre scheduling, consultation notes and a live dashboard; FastAPI, React, Supabase with row-level security, CI; English and Gujarati |
+
+### LLM Systems and Evaluation
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [TriageDesk](https://github.com/aarshdesai-ds/triagedesk-customer-review-assistant) | Customer-review triage with a RAG pipeline and a follow-up agent, where every change was measured | Policy retrieval raised from 32 to 39 of 41 across single-change experiments; agent rebuilt from ReAct to a tool-calling loop, raising tool selection from 18 to 21 of 21; a held-out set showed a remaining gap (3 of 5 urgent cases), reported in the README |
+
+### Analytics and Statistics
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [Returns and Growth Intelligence Pipeline](https://github.com/aarshdesai-ds/aarsh-desai-capstone-project) | A three-layer analytics pipeline: SQL, Python analysis and a generated business narrative | MySQL reports, pandas analysis, and a Gemini-written narrative with a numeric checker, so no figure is reported that an earlier layer did not compute |
+| [Mumbai Indians 2024-2026 Case Study](https://github.com/aarshdesai-ds/mi-2024-2026-case-study) | A ball-by-ball investigation of three IPL seasons | 219 matches; phase-split analysis; Welch's t-test, Mann-Whitney U and Fisher's exact test, reporting only confirmed findings; a recruitment shortlist verified against Cricsheet data |
+| [La Liga Statistical Analysis](https://github.com/aarshdesai-ds/La-Liga_Project_Aarsh) | Three models of team performance, compared | 3,040 matches across 8 seasons; betting odds, Pythagorean expectation and expected goals (xG); residual analysis and market-bias findings |
 
 ---
 
-## Education
+## How I Work
 
-### Purdue University, College of Science
-
-Bachelor of Science in Data Science  
-Minor in Economics  
-West Lafayette, Indiana  
-Graduated: May 2026
+- **Measure first.** I build a labelled test set before tuning anything, and change one thing at a time.
+- **Report what didn't work.** My READMEs include the experiments that lowered a score and the limitations still open.
+- **Keep safety decisions deterministic.** Where an error is costly, I put the rule in code and keep a person in the loop.
+- **Choose metrics that fit the problem.** AUROC and calibration for imbalanced clinical data, missed cases counted separately from false alarms.
+- **Ship it properly.** An API, tests, a container and a model card or README that states what the system is not for.
 
 ---
 
@@ -47,135 +62,39 @@ Graduated: May 2026
 ### Raaz MD - AI Product Engineer Intern
 Jul 2026 - Present
 
-- Building an end-to-end multilingual voice-AI pipeline that transcribes and translates Hindi health-coaching calls into structured clinical summaries, using RAG with ChromaDB for patient-history retrieval and a locally hosted 4-bit quantized Mistral-7B model, delivering accurate summaries that streamline clinician review
-- Developing an automated call-type routing system that separates clinical follow-ups from logistics escalations, reducing manual review time and accelerating documentation workflow
-- Implementing reliability safeguards - prompt-level plausibility guardrails to catch LLM hallucinations, plus a PII de-identification layer (NER-based redaction and phone-number pseudonymization) - lowering false risk assessments and ensuring compliant handling of sensitive data
+- Building an end-to-end multilingual voice-AI pipeline that transcribes and translates Hindi health-coaching calls into structured clinical summaries, using RAG with ChromaDB for patient-history retrieval and a locally hosted 4-bit quantized Mistral-7B model
+- Developing a call-type routing system that separates clinical follow-ups from logistics escalations, reducing manual review time
+- Implementing reliability safeguards: plausibility guardrails to catch LLM hallucinations, and a PII de-identification layer with NER-based redaction and phone-number pseudonymization
 
 ---
 
 ## Technical Skills
 
-### Programming and Data
+**LLM and GenAI:** LangChain, RAG, tool-calling agents, structured output, prompt design, guardrails, LLM evaluation, ChromaDB, OpenAI and Gemini APIs, LangGraph (in progress)
 
-Python, SQL, R, Java, pandas, NumPy, Excel, Google Sheets
+**Machine Learning:** PyTorch, TensorFlow/Keras, scikit-learn, transfer learning, CNNs for signals and images, probability calibration, threshold tuning, Grad-CAM, SHAP, hypothesis testing
 
-### Machine Learning and Statistics
+**Engineering:** Python, SQL, FastAPI, Pydantic, Docker, GitHub Actions, pytest, Streamlit, Gradio, Hugging Face Spaces, React, Supabase and PostgreSQL
 
-scikit-learn, TensorFlow/Keras, PyTorch, DenseNet, transfer learning, Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, GridSearchCV, model validation, probability calibration, feature selection, residual analysis, hypothesis testing, A/B testing, LLMs, retrieval-augmented generation (RAG)
-
-### Analytics, BI, and Data Engineering
-
-Tableau, Power BI, Matplotlib, Seaborn, Plotly, SQLite, MySQL, MS SQL Server, ETL workflows, data validation, KPI dashboards, reporting automation
-
-### Deployment and Tools
-
-FastAPI, Streamlit, Gradio, Docker, GitHub Actions, Hugging Face Spaces, Grad-CAM, ChromaDB, Git, GitHub, VS Code, Jupyter Notebook, Kaggle
+**Data and BI:** pandas, NumPy, MySQL, SQLite, Tableau, Power BI, Matplotlib, Seaborn, Plotly
 
 ---
 
-## How I Approach Data Projects
+## Education and Certifications
 
-1. Define the business, clinical, or analytical question
-2. Inspect raw data and identify quality, leakage, and missingness issues
-3. Clean, validate, and document assumptions
-4. Engineer features that reflect the underlying decision problem
-5. Build simple baselines before adding complexity
-6. Evaluate with metrics that match the use case
-7. Interpret results in plain language
-8. Package the work as a notebook, dashboard, app, API, report, or model card
-9. Identify limitations, responsible-use boundaries, and practical next steps
+**Purdue University, College of Science.** B.S. Data Science, minor in Economics. Graduated May 2026.
 
----
-
-## Featured Project Portfolio
-
-The projects below represent my public GitHub portfolio. The strongest projects are listed first, with healthcare AI and deployment-focused ML work prioritized.
-
-| Project | Area | Core Methods / Results | Repository |
-|---|---|---|---|
-| EchoNext-SHD - Structural Heart Disease Detection from 12-Lead ECGs | Healthcare AI, ECG deep learning, deployment | 82,543 ECGs; 1D-CNN residual ensemble; ECG + clinical feature fusion; 0.842 AUROC / 0.812 AUPRC; FastAPI, Docker, Gradio, GitHub Actions | [Repository](https://github.com/aarshdesai-ds/echonext-shd-detection) |
-| Incident Triage Pipeline - LLM Classification Microservice | GenAI/LLM engineering, ML deployment | Migrated Anthropic to Google Gemini, cutting per-incident inference cost ~58%; Pydantic-enforced structured outputs; FastAPI + SQLModel microservice with typed error-classification and retry logic; 149 automated tests (100% passing); 55/55 live incidents classified correctly end-to-end | [Repository](https://github.com/aarshdesai-ds/incident-triage-pipeline) |
-| Early Diabetes Risk Screening - End-to-End ML Web App | Responsible ML, healthcare screening | 768 records; calibrated Random Forest; 0.84 ROC AUC / 0.74 AUPRC; SHAP explanations, threshold tuning, model card, Docker, CI/CD | [Repository](https://github.com/aarshdesai-ds/diabetes-prediction) |
-| NIH Chest X-Ray Multi-Label Classifier - 14-Finding Detection | Healthcare AI, medical imaging, deployment | 112,120 chest X-rays; DenseNet-121 (CheXNet) transfer learning; 0.797 test macro-AUROC (vs. 0.604 from-scratch baseline); patient-level splits, per-class threshold tuning, Grad-CAM shortcut audit, model card, live Streamlit app | [Repository](https://github.com/aarshdesai-ds/chest-xray-classifier) |
-| Augmented Olivetti Face Recognition | Computer vision, classification | 2,000 face images; PCA, SVM, KNN, K-Means; linear SVM reached 98% test accuracy and 0.98 macro F1 | [Repository](https://github.com/aarshdesai-ds/olivetti-face-recognition) |
-| Telco Customer Churn Prediction | Customer analytics, ML app | 7,043 customers; SMOTE + Random Forest; 85.0% accuracy, 84.1% precision, 86.8% recall; Streamlit app | [Repository](https://github.com/aarshdesai-ds/churn-prediction) |
-| Favorita Store Sales Forecasting | Time series forecasting, retail analytics | 3,000,888 training records; six-source feature engineering; Random Forest vs. SARIMAX; R2 0.9516, MAE 79.45 on 15-day holdout | [Repository](https://github.com/aarshdesai-ds/favorita-sales-forecasting) |
-| GDP Data ETL Pipeline | Data engineering, ETL | Web scraping with BeautifulSoup; GDP values cleaned into USD billions; 191 records written to CSV and SQLite; SQL query + logging | [Repository](https://github.com/aarshdesai-ds/etl-project) |
-| Census Income Classification | Interpretable ML, socioeconomic data | 32,561 records; Logistic Regression + RFE; 5-feature model reached roughly 82% accuracy and weighted F1 0.807 | [Repository](https://github.com/aarshdesai-ds/census-income-logistic-regression) |
-| Loan Default Risk Dashboard | Analytics dashboard, financial risk | 148,670 loan records; 34 features; 24.64% default rate; Streamlit dashboard with filters and 25 saved plots | [Repository](https://github.com/aarshdesai-ds/loan-risk-dashboard) |
-| Diamond Price Prediction | Regression modeling, diagnostics | 53,940 diamonds; VIF and residual analysis; 3-feature final model reached test R2 0.902 | [Repository](https://github.com/aarshdesai-ds/diamond-price-prediction) |
-| Cyclistic Bike Usage Analysis | Customer segmentation, BI analysis | 1M+ rides; January-April 2024 rider behavior; membership conversion recommendations | [Repository](https://github.com/aarshdesai-ds/cyclistic-bike-usage-analysis) |
-| Video Game Sales Analysis | Market analytics, statistical testing | 16,620 cleaned records; regional sales, platform, genre, rating, correlation, t-test, ANOVA, and chi-square analysis | [Repository](https://github.com/aarshdesai-ds/games-sales-analysis) |
-| Aadhaar Impact Analysis | Public policy analytics, EDA | 112,244 survey records; service access, demographic coverage, exclusion patterns, sentiment, and equity-focused recommendations | [Repository](https://github.com/aarshdesai-ds/aadhaar-eda-project) |
-| Mumbai Indians 2024-2026 IPL Case Study | Sports analytics, hypothesis testing | 219 matches across 3 seasons, ball-by-ball; phase-split (powerplay/middle/death) root-cause analysis; formal testing (Welch's t-test, Mann-Whitney U, Fisher's exact, Pearson) reporting only confirmed findings; recruitment shortlist verified against real Cricsheet data across 9 T20 competitions | [Repository](https://github.com/aarshdesai-ds/mi-2024-2026-case-study) |
-| La Liga Statistical Analysis | Sports analytics, model benchmarking | 3,040 matches across 8 seasons; betting odds, Pythagorean expectation, xG modeling, residual analysis, market-bias findings | [Repository](https://github.com/aarshdesai-ds/La-Liga_Project_Aarsh) |
-
----
-
-## Project Themes Across My Portfolio
-
-### Healthcare AI and Responsible ML
-
-My strongest projects focus on healthcare-oriented machine learning with careful evaluation and clear responsible-use boundaries. EchoNext-SHD uses ECG deep learning for structural heart disease screening, while the diabetes project emphasizes calibration, threshold tuning, SHAP explanations, subgroup analysis, CI/CD, Docker, and model-card documentation. The NIH chest X-ray classifier extends this work into medical imaging, using DenseNet-121 transfer learning with patient-level splits, per-class threshold tuning, a Grad-CAM shortcut audit, and a live Streamlit deployment, all documented with a model card and clear responsible-use boundaries.
-
-### GenAI/LLM Applications and Deployment
-
-My generative AI work focuses on production-shaped LLM systems rather than one-off prototypes. The Incident Triage Pipeline rebuilds a single-notebook proof of concept into a tested FastAPI microservice - schema-enforced structured outputs, typed error classification with retry logic, and bounded-concurrency batch processing - verified against a live provider API and backed by 149 automated tests. At Raaz MD, this extends into RAG-based clinical documentation: a multilingual voice-AI pipeline built on ChromaDB retrieval and a locally hosted 4-bit quantized Mistral-7B model, with hallucination guardrails and PII de-identification layered in for safe, compliant deployment.
-
-### Applied ML and Predictive Analytics
-
-I have built models for churn prediction, diabetes risk, income classification, diamond pricing, face recognition, sales forecasting, and sports performance modeling. These projects use methods such as Random Forest, Logistic Regression, SVM, KNN, PCA, K-Means, SARIMAX, SMOTE, and regression diagnostics.
-
-### Computer Vision and Deep Learning
-
-My deep-learning work spans signals and images: a 1D-CNN residual ensemble for ECG-based structural heart disease detection, a DenseNet-121 transfer-learning classifier for 14-finding chest X-ray screening, and a classical PCA-plus-SVM face-recognition pipeline. Across these I focus on leakage-safe evaluation, honest metric selection, and interpretability through tools such as Grad-CAM.
-
-### Data Engineering, Dashboards, and Decision Support
-
-Several projects turn raw data into practical decision tools: a GDP ETL pipeline with SQLite output, a loan default dashboard, a Cyclistic rider segmentation analysis, and forecasting workflows that merge external signals such as holidays, transactions, oil prices, and store metadata.
-
-### Statistical Thinking and Communication
-
-I use statistical tests, residual diagnostics, model comparison, class-imbalance analysis, confidence intervals, and plain-language reporting to make results easier to trust and act on. My Mumbai Indians IPL case study is a concentrated example: a ball-by-ball investigation across three seasons that applies the right test to each data shape (Welch's t-test, Mann-Whitney U, Fisher's exact test) and deliberately separates statistically confirmed findings from descriptively compelling but underpowered ones.
-
----
-
-## Certifications
-
-- Google Data Analytics Professional Certificate, July 2024
-- Google Advanced Data Analytics Professional Certificate, August 2024
-- SQL for Data Science, University of California, Davis, October 2024
+- Google Data Analytics Professional Certificate (July 2024)
+- Google Advanced Data Analytics Professional Certificate (August 2024)
+- SQL for Data Science, University of California, Davis (October 2024)
 - IBM AI Engineering Professional Certificate (in progress)
 - IBM Data Engineering Professional Certificate (in progress)
 
 ---
 
-## What I Bring to a Team
-
-- Strong foundation in data science, statistics, programming, and databases
-- Comfort moving between notebooks, SQL, dashboards, APIs, reports, and deployed apps
-- Practical experience with healthcare analytics, education analytics, BI workflows, and stakeholder reporting
-- A habit of documenting assumptions, limitations, and reproducible workflows
-- Clear communication developed through internships, teaching assistant work, and operations leadership
-
----
-
-## Areas I Am Excited to Work On
-
-- Data Science and Applied Machine Learning
-- Machine Learning Engineering and ML deployment
-- Healthcare AI, clinical risk modeling, and responsible ML
-- Generative AI, LLM applications, and RAG systems
-- Business intelligence, analytics engineering, and dashboard development
-- Forecasting, customer analytics, churn, segmentation, and operational decision support
-- Data engineering foundations for analytics and ML teams
-
----
-
 ## Contact
 
-I am interested in connecting with teams working in data science, applied machine learning, healthcare AI, analytics, business intelligence, and data-driven decision systems.
+I'm interested in roles in healthcare AI, applied machine learning and LLM engineering.
 
 - LinkedIn: [Aarsh Desai](https://www.linkedin.com/in/aarsh-desai-5953b0277/)
-- GitHub: [aarshdesai-ds](https://github.com/aarshdesai-ds)
 - Email: [aarshdesai004@gmail.com](mailto:aarshdesai004@gmail.com)
