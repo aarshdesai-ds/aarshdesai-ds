@@ -11,8 +11,8 @@ My work covers three areas: LLM applications with retrieval, agents and guardrai
 ## Snapshot
 
 - B.S. Data Science, Purdue University (May 2026), with a minor in Economics
-- AI Product Engineer Intern at Raaz MD, building multilingual voice-AI and RAG pipelines that turn clinical calls into structured documentation
-- Healthcare AI projects across ECG deep learning, chest X-ray classification, clinical risk screening and patient-message triage
+- Former AI Product Engineer Intern at Raaz MD, where I built multilingual voice-AI and RAG pipelines that turn clinical calls into structured documentation
+- - Healthcare AI projects across ECG deep learning, chest X-ray classification, clinical risk screening and patient-message triage
 - LLM systems with labelled evaluation sets, tool-calling agents and code-level guardrails
 - Internship experience in healthcare and education analytics: 3,000+ patient records, 50,000+ education records, Tableau dashboards and recurring reports
 - No U.S. work visa sponsorship required
@@ -60,11 +60,11 @@ My work covers three areas: LLM applications with retrieval, agents and guardrai
 ## Experience
 
 ### Raaz MD - AI Product Engineer Intern
-Jul 2026 - Present
+Jul 2026 - [end month] 2026
 
-- Building an end-to-end multilingual voice-AI pipeline that transcribes and translates Hindi health-coaching calls into structured clinical summaries, using RAG with ChromaDB for patient-history retrieval and a locally hosted 4-bit quantized Mistral-7B model
-- Developing a call-type routing system that separates clinical follow-ups from logistics escalations, reducing manual review time
-- Implementing reliability safeguards: plausibility guardrails to catch LLM hallucinations, and a PII de-identification layer with NER-based redaction and phone-number pseudonymization
+- Built an end-to-end multilingual voice-AI pipeline that transcribes and translates Hindi health-coaching calls into structured clinical summaries, using RAG with ChromaDB for patient-history retrieval and a locally hosted 4-bit quantized Mistral-7B model
+- Developed a call-type routing system that separates clinical follow-ups from logistics escalations, reducing manual review time
+- Implemented reliability safeguards: plausibility guardrails to catch LLM hallucinations, and a PII de-identification layer with NER-based redaction and phone-number pseudonymization
 
 ---
 
