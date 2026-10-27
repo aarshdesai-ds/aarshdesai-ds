@@ -4,7 +4,7 @@ Applied ML and healthcare AI engineer. I build machine learning and LLM systems 
 
 My work covers three areas: LLM applications with retrieval, agents, memory and guardrails; deep learning on medical signals and images; and the engineering that makes a model usable, such as APIs, tests, deployment and documentation.
 
-[LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/) | [Email](mailto:aarshdesai004@gmail.com)
+[Portfolio](https://aarshdesai-ds.github.io) | [LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/) | [Email](mailto:aarshdesai004@gmail.com)
 
 ---
 
