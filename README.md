@@ -1,8 +1,8 @@
 # Aarsh Desai
 
-Data Scientist and Applied ML Engineer. I build machine learning and LLM systems, and I measure them before I trust them.
+AI, Software and Applied ML Engineer. I build full-stack and LLM systems, work directly with the people who use them, and measure them before I trust them.
 
-My work covers three areas: LLM applications with retrieval, agents, memory and guardrails; deep learning on medical signals and images; and the engineering that makes a model usable, such as APIs, tests, deployment and documentation.
+My work covers four areas: LLM applications with retrieval, agents, memory and guardrails; full-stack software built with real users, such as a hospital management system; deep learning on medical signals and images; and the engineering that makes a model usable, such as APIs, tests, deployment and documentation.
 
 [Portfolio](https://aarshdesai-ds.github.io) | [LinkedIn](https://www.linkedin.com/in/aarsh-desai-5953b0277/) | [Email](mailto:aarshdesai004@gmail.com)
 
@@ -13,6 +13,7 @@ My work covers three areas: LLM applications with retrieval, agents, memory and 
 - B.S. Data Science, Purdue University (May 2026), with a minor in Economics
 - Former AI Product Engineer Intern at Raaz MD, an early-stage healthcare startup working to break the stigma around men's sexual wellness, where I built multilingual voice-AI and RAG pipelines that turn calls into structured clinical documentation
 - LangGraph agents with human-in-the-loop pauses, long-term memory, labelled evaluation sets and code-level guardrails
+- Full-stack work with real users: a hospital management system (FastAPI, React, Supabase) built around how front-desk and clinical staff actually work
 - Deep learning projects across ECG signals and chest X-rays, plus clinical risk screening and patient-message triage
 - Internship experience in healthcare and education analytics: 3,000+ patient records, 50,000+ education records, Tableau dashboards and recurring reports
 
@@ -29,6 +30,12 @@ My work covers three areas: LLM applications with retrieval, agents, memory and 
 | [TriageDesk](https://github.com/aarshdesai-ds/triagedesk-customer-review-assistant) | Customer-review triage with a RAG pipeline and a follow-up agent, where every change was measured | Policy retrieval raised from 78% to 95% (32 to 39 of 41) across single-change experiments; agent rebuilt from ReAct to a tool-calling loop, raising tool selection from 86% to 100% (18 to 21 of 21); both parts later rebuilt in LangGraph with a code-level hazard rule and an `interrupt()` supervisor pause, raising urgent catches from 11 to 12 of 13 and pausing 14 of 14 escalations |
 | [FitBuddy](https://github.com/aarshdesai-ds/fitbuddy-workout-chatbot) | A LangGraph home-workout chatbot with an injury guard | Four tools, Chroma retrieval, SQLite-checkpointed memory and LangSmith tracing; the injury guard cut the unsafe-reply rate from 50% to 0% (9 of 18 to 0 of 18); found that a keyword safety check missed 78% of unsafe replies (7 of 9) and rewrote it, with 19 hand-written test cases; human-in-the-loop approval before logging |
 
+### Full-Stack Software
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [SurgiCare HMS](https://github.com/aarshdesai-ds/surgicare-hms) | Hospital management system for SurgiCare Hospital, in active development | Patients, OPD token queue, operation-theatre scheduling, consultation notes and a live dashboard; FastAPI, React, Supabase with row-level security, CI; English and Gujarati |
+
 ### Deep Learning and Machine Learning
 
 | Project | What it is | Highlights |
@@ -44,18 +51,19 @@ My work covers three areas: LLM applications with retrieval, agents, memory and 
 | [Returns and Growth Intelligence Pipeline](https://github.com/aarshdesai-ds/aarsh-desai-capstone-project) | A three-layer analytics pipeline: SQL, Python analysis and a generated business narrative | MySQL reports, pandas analysis, and a Gemini-written narrative with a numeric checker, so no figure is reported that an earlier layer did not compute |
 | [Mumbai Indians 2024-2026 Case Study](https://github.com/aarshdesai-ds/mi-2024-2026-case-study) | A ball-by-ball investigation of three IPL seasons | 219 matches; phase-split analysis; Welch's t-test, Mann-Whitney U and Fisher's exact test, reporting only confirmed findings; a recruitment shortlist verified against Cricsheet data |
 | [La Liga Statistical Analysis](https://github.com/aarshdesai-ds/La-Liga_Project_Aarsh) | Three models of team performance, compared | 3,040 matches across 8 seasons; betting odds, Pythagorean expectation and expected goals (xG); residual analysis and market-bias findings |
-| [SurgiCare HMS](https://github.com/aarshdesai-ds/surgicare-hms) | Hospital management system for SurgiCare Hospital, in active development | Patients, OPD token queue, operation-theatre scheduling, consultation notes and a live dashboard; FastAPI, React, Supabase with row-level security, CI; English and Gujarati |
 
 ---
 
 ## How I Work
 
+- **Start with the people who use it.** I watch how staff actually do their work and test the way they would, then fit the tool to them. Building a hospital system, that meant checking the most common front-desk action first.
 - **Measure first.** I build a labelled test set before tuning anything, and change one thing at a time.
 - **Report what didn't work.** My READMEs include the experiments that lowered a score and the limitations still open.
 - **Keep safety decisions deterministic.** Where an error is costly, I put the rule in code and keep a person in the loop.
 - **Fix model bias in code, not in the prompt.** When an LLM's output is skewed, like quiz answers piling onto one letter, a few lines of code fix it more reliably than another instruction.
 - **Choose metrics that fit the problem.** AUROC and calibration for imbalanced clinical data, missed cases counted separately from false alarms.
 - **Ship it properly.** An API, tests, a container and a model card or README that states what the system is not for.
+- **Explain it plainly.** I write for the person who has to use the system, not only for the engineer who built it.
 
 ---
 
@@ -114,7 +122,7 @@ May 2023 - Aug 2023
 
 ## Contact
 
-I'm interested in AI Engineer, ML Engineer and Data Scientist roles.
+I'm interested in Software Engineer, Forward Deployed Engineer, AI Engineer, ML Engineer and Data Scientist roles.
 
 - Portfolio: [aarshdesai-ds.github.io](https://aarshdesai-ds.github.io)
 - LinkedIn: [Aarsh Desai](https://www.linkedin.com/in/aarsh-desai-5953b0277/)
